@@ -14,4 +14,8 @@ $(document).ready(function () {
         $(this).parent().html($(this).parent().data("content"));
         return false;
     });
+
+    $(".moreparent").click(function() {
+        $(this).find(".morecontent").slideToggle();
+    })
 });

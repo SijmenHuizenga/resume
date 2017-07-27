@@ -54,7 +54,7 @@ body {
 
 /* //-- header, body, footer -- */
 #hd {
-    margin: 2.5em 0 3em 0;
+    margin: 2.5em 0 1em 0;
     padding-bottom: 1.5em;
     border-bottom: 1px solid #ccc
 }
@@ -103,7 +103,7 @@ h1, h2, h3, h4, .emt {
 p {
     font-size: 100%;
     line-height: 18px;
-    padding-right: 3em;
+    padding-right: 1em;
 }
 
 a {
@@ -142,7 +142,12 @@ p.enlarge span {
 }
 
 .last {
-    border-bottom: 0
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.job p:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* //-- section styles -- */
@@ -163,19 +168,20 @@ a#pdf:hover {
 
 .job {
     position: relative;
-    margin-bottom: 1em;
+    padding-top: 1em;
     padding-bottom: 1em;
     border-bottom: 1px solid #ccc;
+    padding-left: 1em;
 }
 
 .job h4 {
     position: absolute;
     top: 0.35em;
-    right: 0
+    right: 0.35em;
 }
 
 .job p {
-    margin: 0.75em 0 2em 0;
+    margin: 0.75em 0 1em 0;
 }
 
 .last {
@@ -204,7 +210,6 @@ a#pdf:hover {
 .talent {
     width: 32%;
     float: left;
-    text-align: justify
 }
 
 .talent li:last-child {
@@ -226,11 +231,16 @@ a#pdf:hover {
 
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u {
-    width: 80.2%;
+    width: 82.2%;
 }
 
 .yui-gf div.first {
-    width: 12.3%;
+    width: 10.3%;
+    padding-top: 1em;
+}
+.yui-gf {
+    margin-bottom: 0;
+    padding-top: 1em;
 }
 
 h6 {
@@ -240,6 +250,9 @@ h6 {
 h4 span {
     color: rgba(51, 51, 51, 0.80);
 }
+h5 {
+    font-weight: bold;
+}
 
 .emt {
     margin-top: 0.5em;
@@ -248,4 +261,25 @@ h4 span {
 
 .more {
     margin-bottom: 0.75em !important;
+}
+.moreparent:hover {
+    background-color: #e4e4e4;
+    cursor: pointer;
+
+    -webkit-transition: background 0.5s linear, visibility 0.5s, opacity 0.5s linear;
+    -moz-transition: background 0.5s linear, visibility 0.5s, opacity 0.5s linear;
+    -ms-transition: background 0.5s linear, visibility 0.5s, opacity 0.5s linear;
+    -o-transition: background 0.5s linear, visibility 0.5s, opacity 0.5s linear;
+    transition: background 0.5s linear, visibility 0.5s, opacity 0.5s linear;
+
+    box-shadow: 0px 0px 17px #e4e4e4;
+    -webkit-box-shadow: 0px 0px 17px #e4e4e4;
+    -ms-box-shadow: 0px 0px 17px #e4e4e4;
+    -o-box-shadow: 0px 0px 17px #e4e4e4;
+}
+.morecontent {
+    display: none;
+}
+.clearfix {
+    clear: both;
 }

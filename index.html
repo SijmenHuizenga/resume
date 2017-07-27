@@ -8,8 +8,8 @@
           href="//cdnjs.cloudflare.com/ajax/libs/yui/2.9.0/reset-fonts-grids/reset-fonts-grids.css" media="all"/>
     <link rel="stylesheet" type="text/css" href="resume.css" media="all"/>
 
-    <script type="application/javascript" src="//code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
     <script type="application/javascript" src="resume.js"></script>
 </head>
 <body>
@@ -26,11 +26,11 @@
 
                 <div class="yui-u">
                     <div class="contact-info">
-                        <h3><a id="pdf" href="CV%20Sijmen%20Huizenga.pdf" target="_blank">Download PDF</a></h3>
-                        <h3><a href="mailto:sijmenhuizenga@gmail.com">sijmenhuizenga@gmail.com</a></h3>
+
+                        <h3><a target="_blank" href="mailto:sijmenhuizenga@gmail.com">sijmenhuizenga@gmail.com</a></h3>
                         <h3>06-53279894</h3>
-                        <h3><a href="https://www.linkedin.com/in/sijmenh/">Linkedin</a></h3>
-                        <h3><a href="https://github.com/sijmenhuizenga">Github</a></h3>
+                        <h3><a target="_blank" href="https://www.linkedin.com/in/sijmenh/">Linkedin</a></h3>
+                        <h3><a target="_blank" href="https://github.com/sijmenhuizenga">Github</a></h3>
                     </div>
                 </div>
             </div>
@@ -40,110 +40,118 @@
             <div id="yui-main">
                 <div class="yui-b">
 
-                    <div class="yui-gf">
+                    <div class="yui-gf" style="padding-bottom: 0.5em">
                         <p class="enlarge">
                             Ik ben een enthousiaste ICT-ontwikkelaar, met inmiddels grote vaardigheid met programmeren,
                             o.a. in Java en webapplicaties. Inmiddels heb ik mijn derde jaar Hbo informatica aan de HAN
-                            in Nijmegen succesvol afgesloten, inclusief een extra vak. Ook run ik mijn eigen ICT-bedrijfje
-                            <a href="https://sijmen.it">Sijmen Software en ICT</a>. Onder deze naam ontwikkel
+                            in Nijmegen succesvol afgesloten. Ook run ik mijn eigen ICT-bedrijfje
+                            <a target="_blank" href="https://sijmen.it">Sijmen Software en ICT</a>. Onder deze naam ontwikkel
                             ik websites en help ik bij computerproblemen.
                         </p>
+                        <br>
+                        <br>
+                        <p style="text-align: center">Dit CV is interactief! Klik op regels die oplichten om meer proza te lezen.</p>
                     </div>
 
                     <!-- Technieken Tabelletjes-->
                     <div class="yui-gf">
                         <div class="yui-u first">
                             <h2>Technieken</h2>
-                            <h6>(de belangrijkste)</h6>
+                            <h6>belangrijkste</h6>
                         </div>
                         <div class="yui-u">
-                            <p><b>Java</b></p>
-                            <ul class="talent">
-                                <li>Maven</li>
-                                <li>Spring Boot</li>
-                                <li>Guice</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Spark</li>
-                                <li>Gson</li>
-                                <li>Log4J</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>JUnit</li>
-                                <li>Mockito</li>
-                                <li>Spark</li>
-                            </ul>
-                        </div>
-                        <div class="yui-u">
-                            <p><b><br>JS</b></p>
-                            <ul class="talent">
-                                <li>React</li>
-                                <li>Webpack</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>JQuery</li>
-                                <li>NPM/Yarn</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Babel</li>
-                                <li>Jasmine</li>
-                            </ul>
-                        </div>
-                        <div class="yui-u">
-                            <p><b><br>PHP</b></p>
-                            <ul class="talent">
-                                <li>Laravel</li>
-                                <li>Composer</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Twig</li>
-                                <li>PHPUnit</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Mockery</li>
-                                <li>FullCalendar</li>
-                            </ul>
-                        </div>
-
-                        <div class="yui-u">
-                            <p><b><br>Cloud Services en Tools</b></p>
-                            <ul class="talent">
-                                <li>Amazon Web Services</li>
-                                <li>Google Cloud Platform</li>
-                                <li>Digital Ocean</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Github</li>
-                                <li>Bitbucket</li>
-                                <li>Gitlab</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Jenkins</li>
-                                <li>Atlassian Bamboo</li>
-                                <li>Travis</li>
-                            </ul>
-                        </div>
-
-                        <div class="yui-u">
-                            <p><b><br>Overig</b></p>
-                            <ul class="talent">
-                                <li>Android</li>
-                                <li>Python</li>
-                                <li>C#</li>
-                                <li>Bash</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>MySQL</li>
-                                <li>MongoDB</li>
-                                <li>MSSQL</li>
-                                <li>Redis</li>
-                            </ul>
-                            <ul class="talent">
-                                <li>Atlassian Tools</li>
-                                <li>Jetbrains IDE's</li>
-                                <li>Arch/Ubuntu/Debian/Redhat</li>
-                                <li>Scala</li>
-                            </ul>
+                            <div class="job last">
+                                <h5>Java</h5>
+                                <ul class="talent">
+                                    <li>Maven</li>
+                                    <li>Spring Boot</li>
+                                    <li>Guice</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>Spark</li>
+                                    <li>Gson</li>
+                                    <li>Log4J</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>JUnit</li>
+                                    <li>Mockito</li>
+                                    <li>Spark</li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="job last">
+                                <h5>JS</h5>
+                                <ul class="talent">
+                                    <li>React</li>
+                                    <li>Webpack</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>JQuery</li>
+                                    <li>NPM/Yarn</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>Babel</li>
+                                    <li>Jasmine</li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="job last">
+                                <h5>PHP</h5>
+                                <ul class="talent">
+                                    <li>Laravel</li>
+                                    <li>Composer</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>Twig</li>
+                                    <li>PHPUnit</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>Mockery</li>
+                                    <li>FullCalendar</li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="job last">
+                                <h5>Cloud Services en Tools</h5>
+                                <ul class="talent">
+                                    <li>Amazon Web Services</li>
+                                    <li>Google Cloud Platform</li>
+                                    <li>Digital Ocean</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>Github</li>
+                                    <li>Bitbucket</li>
+                                    <li>Gitlab</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>Jenkins</li>
+                                    <li>Atlassian Bamboo</li>
+                                    <li>Travis</li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="job last">
+                                <h5>Overig</h5>
+                                <ul class="talent">
+                                    <li>Android</li>
+                                    <li>Python</li>
+                                    <li>C#</li>
+                                    <li>Bash</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>MySQL</li>
+                                    <li>MongoDB</li>
+                                    <li>MSSQL</li>
+                                    <li>Redis</li>
+                                </ul>
+                                <ul class="talent">
+                                    <li>Atlassian Tools</li>
+                                    <li>Jetbrains IDE's</li>
+                                    <li>Arch/Ubuntu/Debian/Redhat</li>
+                                    <li>Scala</li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
                     </div>
 
@@ -155,11 +163,11 @@
                         </div>
 
                         <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Freelance IT'er</h2>
                                 <h3>Sijmens Software en ICT</h3>
                                 <h4><span>2013 - </span>heden</h4>
-                                <p>Als IT'er help ik iedereen die vragen heeft over computers. Vaak gaat het over
+                                <p class="morecontent">Als IT'er help ik iedereen die vragen heeft over computers. Vaak gaat het over
                                     problemen met mail, virus scanners, Windows updates, trage computers en smartphones
                                     die zich verkeerd gedragen. Ik probeer de oplossing te vinden om zo zo veel mogelijk
                                     stress bij de klant weg te nemen. Op deze manier werk ik nu bij meer dan zestig vaste
@@ -172,47 +180,47 @@
                                     waar zij goed in zijn.</p>
                             </div>
 
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Softwareontwikkelaar</h2>
                                 <h3>Eforah</h3>
                                 <h4><span>februari 2017 - </span>heden</h4>
-                                <p>Bij Eforah ben ik vliegende kiep voor allerlei ontwikkeltaken. Zo heb ik onder
+                                <p class="morecontent">Bij Eforah ben ik vliegende kiep voor allerlei ontwikkeltaken. Zo heb ik onder
                                     andere gewerkt aan pensioenrust.nl. Verder heb ik een Javascript applicatie ontwikkeld
                                     die koppelt met digid en de gegevens van mijnpensioenoverzicht.nl kan inlezen.</p>
                             </div>
 
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Stagiair IT</h2>
                                 <h3>Kramp</h3>
                                 <h4><span>september 2016 - </span>januari 2017</h4>
-                                <p>Als stagiair IT bij Kramp werkte ik mee binnen het ESB (Enteprise Service Bus) team
+                                <p class="morecontent">Als stagiair IT bij Kramp werkte ik mee binnen het ESB (Enteprise Service Bus) team
                                     als integratie engineer. Dit team werkt binnen de IBM Integratie Bus aan de
                                     koppeling tussen alle verschillende systemen van Kramp.</p>
                             </div>
 
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Verkoper</h2>
                                 <h3>Kantoorvakhandel Bernink en van de Venne</h3>
                                 <h4><span>juli 2014 - </span>augustus 2016</h4>
-                                <p>Als verkoper bij Bernink en van de Venne zorg ik voor een goede gang van zaken in de
+                                <p class="morecontent">Als verkoper bij Bernink en van de Venne zorg ik voor een goede gang van zaken in de
                                     winkel. Ik werk binnen een klein team en ik houd me bezig met het helpen van
                                     klanten, het bijvullen van de vakken, het schoonmaken van de winkel en enige
                                     computerondersteuning.</p>
                             </div>
 
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Administratief medewerker</h2>
                                 <h3>Maas & Waal Uitzendorganisatie</h3>
                                 <h4><span>januari 2015 - </span>augustus 2015</h4>
-                                <p>Als administratief medewerker hielp ik mee bij allerlei administratieve klussen. Zo
+                                <p class="morecontent">Als administratief medewerker hielp ik mee bij allerlei administratieve klussen. Zo
                                     heb ik ook de volledige digitale administratie op orde gebracht.</p>
                             </div>
 
-                            <div class="job">
+                            <div class="job moreparent last">
                                 <h2>Bezorger stadskrant</h2>
                                 <h3>Axender BV</h3>
                                 <h4><span>oktober 2013 - </span>januari 2015</h4>
-                                <p>Als bezorger van de wekelijkse stadskrant ging ik door weer en wind om de krantjes op
+                                <p class="morecontent">Als bezorger van de wekelijkse stadskrant ging ik door weer en wind om de krantjes op
                                     tijd
                                     bij iedereen te bezorgen. In deze tijd heb ik enorm veel respect gekregen voor alle
                                     postbezorgers.</p>
@@ -227,12 +235,12 @@
                             <h2>Opleiding</h2>
                         </div>
                         <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Informatica - Software Ontwikkeling</h2>
                                 <h3>Hogeschool van Arnhem en Nijmegen</h3>
                                 <h4>2014 - 2018</h4>
 
-                                <p class="more" id="cijferlist-han" data-readmoretext="Klik hier voor cijferlijst">
+                                <p class="morecontent" data-readmoretext="Klik hier voor cijferlijst">
                                     <strong>Cijferlijst propedeuse</strong><br>
 
                                     Structured Program Development: 10<br>
@@ -256,11 +264,11 @@
                                     Advanced Software Development Project: 8<br>
                                 </p>
                             </div>
-                            <div class="job">
+                            <div class="job moreparent last">
                                 <h2>HAVO</h2>
                                 <h3>Canisius College Nijmegen</h3>
                                 <h4>2009 - 2014</h4>
-                                <p class="more" data-readmoretext="Klik hier voor cijferlijst">
+                                <p class="morecontent">
                                     <strong>Cijferlijst</strong><br>
                                     Nederlandse taal en literatuur: 6<br>
                                     Engelse taal en literatuur: 7<br>
@@ -286,11 +294,11 @@
                         </div>
 
                         <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>ASD SmartMobility Project</h2>
                                 <h3>In opdracht van hogeschool Arnhem en Nijmegen</h3>
                                 <h4>mei 2017</h4>
-                                <p>Met 13 medestudenten zelf een volledig smart-mobility systeem realiseren. We moesten
+                                <p class="morecontent">Met 13 medestudenten zelf een volledig smart-mobility systeem realiseren. We moesten
                                     alles zelf doen: project organisatie, software architectuur, requirements
                                     specificatie,
                                     software ontwerp en natuurlijk de ontwikkeling. Tijdens het project ontwikkelde we
@@ -303,140 +311,124 @@
                                     geweldig om te experimenteren en te zien wat wel niet werkt.
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Microsoft Hackathon</h2>
                                 <h3>Schiphol</h3>
                                 <h4>juli 2017</h4>
-                                <p>In 12 uur hebben we een concept en prototype gebouwd voor Amy, een online platform to
+                                <p class="morecontent">In 12 uur hebben we een concept en prototype gebouwd voor Amy, een online platform to
                                     "Make Learning Great Again". Door een competitie element toe te voegen aan online
                                     leren én inzichtelijk te maken waar jij échte kennis over hebt maakt Amy het
                                     leuker om in eigen tijd online iets nieuws te leren. Tijdens de hackathon hebben we ook
                                     nog geëxperimenteerd met Azure Machine Learning Studio. Na pitches hebben we de
                                     eerste prijs veroverd!
                                     <span class="emt">
-                                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6289471765504761856">Foto</a>
+                                        <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:6289471765504761856">Foto</a>
                                     </span>
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Hackathon Redesign the Netherlands</h2>
                                 <h3>'S Hertogenbosch</h3>
                                 <h4>juni 2017</h4>
-                                <p>Een designer, een kaartenexpert en ik hebben tijdens deze hackathon concept BIEB
+                                <p class="morecontent">Een designer, een kaartenexpert en ik hebben tijdens deze hackathon concept BIEB
                                     opgezet. Het concept brengt buren samen om zo gezamenlijk geluidsoverlast op te
                                     lossen zonder hulp nodig te hebben van gemeenten of politie. Het was een feest om
                                     met een puur interdisciplinair team samen te werken. Aan het eind heb ik de pitch
                                     gehouden voor de jury die ons de 2de prijs heeft toegereikt.
                                     <span class="emt">
-                                        <a href="https://www.youtube.com/watch?v=qqmPGcR0aI4">Eindpitch</a> |
-                                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6288709942346153984">Foto</a> |
-                                        <a href="https://github.com/SijmenHuizenga/BIEB">Github Project</a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=qqmPGcR0aI4">Eindpitch</a> |
+                                        <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:6288709942346153984">Foto</a> |
+                                        <a target="_blank" href="https://github.com/SijmenHuizenga/BIEB">Github Project</a>
                                     </span>
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>HackDelft</h2>
                                 <h3>Delft</h3>
                                 <h4>mei 2017</h4>
-                                <p>Samen met 3 teamleden hebben we 24 uur gewerkt aan een uitdaging van Optiver. We
+                                <p class="morecontent">Samen met 3 teamleden hebben we 24 uur gewerkt aan een uitdaging van Optiver. We
                                     maakten een algoritme dat de financiële beurzen kan voorspellen om zo veel geld te
                                     verdienen. Na 100 dagen in de simulator hebben we met ons algoritme €750.000
                                     verdiend! Dat betekent 405 jaar pizza!! Met onze pitch die ik deels verzorgde,
                                     eindigde we op de eerste plek van de Optiver uitdaging en 3de plek algeheel! Het was
                                     een geweldig tijd waarin ik veel coole mensen heb ontmoet.
                                     <span class="emt">
-                                        <a href="https://github.com/LizaTheCount/kwindo">Github Project</a>
+                                        <a target="_blank" href="https://github.com/LizaTheCount/kwindo">Github Project</a>
                                     </span>
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>ICSS</h2>
                                 <h3>Parser en converter voor speciale CSS</h3>
                                 <h4>maart 2017</h4>
-                                <p>
+                                <p class="morecontent">
                                     Voor het vak Algoritmes, Programmeertalen en Paradigma’s heb ik een lexer, parser,
                                     check en converter geschreven voor een extensie op de CSS-specificatie. Ik vond dit
                                     een super leuk project omdat ik dit soort projecten geweldig vind. Ik heb veel
                                     plezier gehad in het uitdenken van de optimale structuren om de code te organiseren.
                                     Uiteindelijk heeft dit een geweldig product opgeleverd wat beoordeeld is met een 10.
                                     <span class="emt">
-                                        <a href="https://github.com/SijmenHuizenga/ICSS">Github Project</a>
+                                        <a target="_blank" href="https://github.com/SijmenHuizenga/ICSS">Github Project</a>
                                     </span>
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Hackathon HEX</h2>
                                 <h3>Eindhoven</h3>
                                 <h4>april 2017</h4>
-                                <p>In 24 uur een creatieve oplossing bedenken voor het mobiliteitsprobleem van
+                                <p class="morecontent">In 24 uur een creatieve oplossing bedenken voor het mobiliteitsprobleem van
                                     Nederland. Met een 5 koppig team van over de hele wereld hebben we het concept
                                     CarSurf uitgewerkt met als doel sociaal carpooling mogelijk te maken op een nieuwe
                                     manier. Met het idee hebben we geen prijzen gewonnen, maar onze integratie met
                                     Twillio leverde ons verrassend genoeg toch nog een prijs op! Het was geweldig om
                                     mee te maken hoeveel je van elkaar kan leren in 24 uur.
                                     <span class="emt">
-                                        <a href="https://www.youtube.com/watch?v=FGVJlb9KIko">Aftermovie</a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=FGVJlb9KIko">Aftermovie</a>
                                     </span>
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>Hackathon the Connected World</h2>
                                 <h3>Centraal Beheer Achmea</h3>
                                 <h4>februari 2017</h4>
-                                <p>Wat een feest: 24 uur non-stop werken aan een concept voor Centraal Beheer Achmea
+                                <p class="morecontent">Wat een feest: 24 uur non-stop werken aan een concept voor Centraal Beheer Achmea
                                     tijdens Hackathon The Connected World. Met ons Geweldige team en twee super coaches
                                     hebben we gewerkt aan hét Mobiliteitsplatform van de toekomst. Met de pitch die ik
                                     deels heb gedaan hebben we de tweede plek bemachtigd!
                                     <span class="emt">
-                                        <a href="https://www.youtube.com/watch?v=JBhh39yMeMw">Aftermovie</a> |
-                                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6241237357941653504">
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=JBhh39yMeMw">Aftermovie</a> |
+                                        <a target="_blank" href="https://www.linkedin.com/feed/update/urn:li:activity:6241237357941653504">
                                             Foto</a>
                                     </span>
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>OOSE Project</h2>
                                 <h3>InfoSupport</h3>
                                 <h4>juni 2016</h4>
-                                <p>In de laatste 10 weken van het mijn tweede studiejaar bij de HAN ICA heb ik met vier
+                                <p class="morecontent">In de laatste 10 weken van het mijn tweede studiejaar bij de HAN ICA heb ik met vier
                                     teamleden gewerkt aan een software project. We mochten in opdracht van Info Support
                                     een demo-applicatie maken die verzekeringen kan vinden. Het was een super leuk
                                     project, waarvan we allemaal veel van hebben geleerd. Aan het eind mochten we een
                                     presentatie houden aan alle stakeholders! Het project heb ik afgerond met een 8.
                                     <span class="emt">
-                                        <a href="https://www.youtube.com/watch?v=iW0l8jdSSV4">Aftermovie</a>
+                                        <a target="_blank" href="https://www.youtube.com/watch?v=iW0l8jdSSV4">Aftermovie</a>
                                     </span>
                                 </p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent">
                                 <h2>TBS Opdracht ISE Project</h2>
                                 <h3>VGZ</h3>
                                 <h4>januari 2016</h4>
-                                <p>Voor de eerste keer een school project met een levende opdrachtgever, voor de eerste
+                                <p class="morecontent">Voor de eerste keer een school project met een levende opdrachtgever, voor de eerste
                                     keer een project in C# en voor de eerste keer samenwerken met meer ervaren
                                     medestudenten.
                                     Van VGZ kregen we de opdracht een informatiesysteem te ontwerpen en te bouwen voor
@@ -446,14 +438,14 @@
                                     te zetten.
                                     Dit project heb ik afgerond met een 7.</p>
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+
+
+                            <div class="job moreparent">
                                 <h2>Bitbot</h2>
                                 <h3>https://github.com/SijmenHuizenga/BitBot</h3>
                                 <h4>januari 2015</h4>
-                                <p>"De Boebot is door een ruimtesonde naar een komeet gebracht en daar inmiddels veilig
+                                <p class="morecontent">De Boebot is door een ruimtesonde naar een komeet gebracht en daar inmiddels veilig
                                     en rechtop op geland. De Boebot heeft verschillende sensoren aan boord om onderzoek
                                     te doen naar het klimaat op de komeet, waaronder een kompas, accelerometer,
                                     gyroscoop,
@@ -461,38 +453,36 @@
                                     voor het vak Embeded Software Ontwikkeling was om deze robot te programmeren. Voor
                                     mijn uitwerking heb ik een 10 gekregen.<bR>
                                     <span class="emt">
-                                        <a href="https://github.com/SijmenHuizenga/BitBot">Github Project</a> |
-                                        <a href="https://www.youtube.com/watch?feature=v=A6OPI_RDbGY">Video</a>
+                                        <a target="_blank" href="https://github.com/SijmenHuizenga/BitBot">Github Project</a> |
+                                        <a target="_blank" href="https://www.youtube.com/watch?feature=v=A6OPI_RDbGY">Video</a>
                                     </span>
                                 </p>
 
                             </div>
-                        </div>
 
-                        <div class="yui-u">
-                            <div class="job">
+
+
+                            <div class="job moreparent">
                                 <h2>Rijles-planner.nl</h2>
                                 <h3>Sijmens Software en ICT</h3>
                                 <h4>september 2015</h4>
-                                <p>Voor een rijschool in Nijmegen heb ik een volledige rijles-planner ontwikkeld. Deze
+                                <p class="morecontent">Voor een rijschool in Nijmegen heb ik een volledige rijles-planner ontwikkeld. Deze
                                     wordt op dit moment nog steeds gebruikt! In dit project heb ik alles zelf gedaan:
                                     requirements uitzoeken, design, ontwikkeling, deployment, support en bug fixing. Dit
                                     project heeft mijn ogen geopend voor wat er allemaal komt kijken bij het runnen van
                                     een live systeem. Op de website van de rijles-planner zijn een aantal screenshots
                                     te zien.
                                     <span class="emt">
-                                        <a href="https://rijles-planner.nl/">Github Project</a>
+                                        <a target="_blank" href="https://rijles-planner.nl/">Github Project</a>
                                     </span>
 
                                 </p>
                             </div>
-                        </div>
-                        <div class="yui-u">
-                            <div class="job">
+                            <div class="job moreparent last">
                                 <h2>Meer?!</h2>
                                 <h3>Sinds het begin</h3>
                                 <h4>juli 2011 - nu</h4>
-                                <p>
+                                <p class="morecontent">
                                     Op zaterdag 2 juli 2011 om 17:55 (volgens Windows datum stempel) wilde ik een
                                     stopwatch maken. Op een of andere manier ben ik toen begonnen met spelen in Visual
                                     Basic. Dit was het begin van mijn liefde voor programmeren.<br>
@@ -501,26 +491,25 @@
                                     zijn om al deze projecten hier te beschrijven. Wil je toch nog meer van mijn
                                     projecten zien?
                                     Dat kan! Veel van mijn projecten staan online verspreid. Hieronder een aantal
-                                    nuttige links:<br><br>
-
-                                    <a href="https://github.com/SijmenHuizenga">Github Sijmen Huizenga</a>
+                                    nuttige links:
+                                </p>
+                                <p>
+                                    <a target="_blank" href="https://github.com/SijmenHuizenga">Github Sijmen Huizenga</a>
                                     Schoolgerelateerde en zakelijke projecten<br>
-                                    <a href="https://www.linkedin.com/in/sijmenh/detail/recent-activity/shares/">LinkedIn
+                                    <a target="_blank" href="https://www.linkedin.com/in/sijmenh/detail/recent-activity/shares/">LinkedIn
                                         Sijmen Huizenga</a>
                                     Hier post ik mijn coolste projecten<br>
-                                    <a href="https://sijmen.it/portfolio/">Website Portfolio</a>
+                                    <a target="_blank" href="https://sijmen.it/portfolio/">Website Portfolio</a>
                                     Alle websites gebouwd in opdracht met mijn eigen bedrijfje<br>
-                                    <a href="https://github.com/Sinius15">Github Sinius15</a>
+                                    <a target="_blank" href="https://github.com/Sinius15">Github Sinius15</a>
                                     Hobby projecten, grotendeels in mijn vroege programmeerjaren<br>
-                                    <a href="http://sinius15.com/site/">Sinius15 Website</a>
+                                    <a target="_blank" href="http://sinius15.com/site/">Sinius15 Website</a>
                                     Grappige oude projecten website<br>
-                                    <a href="https://github.com/Sinius15">Github TheBlackCrafter</a>
+                                    <a target="_blank" href="https://github.com/Sinius15">Github TheBlackCrafter</a>
                                     Lang Lang Geleden<br>
-                                    <a href="https://github.com/SijmenHuizenga/Hello-Programming">Hello-Programming</a>
+                                    <a target="_blank" href="https://github.com/SijmenHuizenga/Hello-Programming">Hello-Programming</a>
                                     Mijn allereerste programmeerproject
                                 </p>
-
-
                             </div>
                         </div>
                     </div>
@@ -530,7 +519,7 @@
         </div>
 
         <div id="ft">
-            <p>Sijmen Huizenga &mdash; <a href="mailto:sijmenhuizenga@gmail.com">sijmenhuizenga@gmail.com</a> &mdash; 06-53279894</p>
+            <p>Sijmen Huizenga &mdash; <a target="_blank" href="mailto:sijmenhuizenga@gmail.com">sijmenhuizenga@gmail.com</a> &mdash; 06-53279894</p>
             <br>
             <br>
             <p>Spelling is niet mijn sterkste kwaliteit. <br>
