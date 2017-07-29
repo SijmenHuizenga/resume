@@ -4,13 +4,19 @@
     <title>Sijmen Huizenga</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
-    <link rel="mainfest" href="manifest.json">
-    <script type="application/javascript" src="scripts/register-sw.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#990003"/>
 
-    <link rel="stylesheet" type="text/css" href="styles/resume.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="styles/resume.css" media="none" onload="if(media!='all')media='all'"/>
+    <link rel="stylesheet" type="text/css" href="styles/resume-print.css" media="print"/>
+
+    <script type="application/javascript" src="scripts/register-sw.js" async></script>
 
     <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
     <script type="application/javascript" src="scripts/resume.js" defer></script>
+
+    <link rel="shortcut icon" type="image/png" href="images/icon-96.png">
 </head>
 <body>
 
@@ -31,8 +37,8 @@
                     ik websites en help ik bij computerproblemen.
                 </p>
                 <br>
-                <br>
-                <p style="text-align: center">Dit CV is interactief! Klik op regels die oplichten om meer proza te lezen.</p>
+                <p style="text-align: center" class="hideonprint">
+                    <br>Dit CV is interactief! Klik op regels die oplichten om meer proza te lezen.</p>
             </div>
 
             <!-- Technieken Tabelletjes-->
@@ -474,19 +480,25 @@
                         <p>
                             <a target="_blank" rel="noopener" href="https://github.com/SijmenHuizenga">Github Sijmen Huizenga</a>
                             Schoolgerelateerde en zakelijke projecten<br>
-                            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/sijmenh/detail/recent-activity/shares/">LinkedIn
-                                Sijmen Huizenga</a>
+                            <span class="showonprint softlink">(https://github.com/SijmenHuizenga)</span>
+                            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/sijmenh/detail/recent-activity/shares">LinkedIn Sijmen Huizenga</a>
                             Hier post ik mijn coolste projecten<br>
-                            <a target="_blank" rel="noopener" href="https://sijmen.it/portfolio/">Website Portfolio</a>
+                            <span class="showonprint softlink">(https://www.linkedin.com/in/sijmenh/detail/recent-activity/shares)</span>
+                            <a target="_blank" rel="noopener" href="https://sijmen.it/portfolio">Website Portfolio</a>
                             Alle websites gebouwd in opdracht met mijn eigen bedrijfje<br>
+                            <span class="showonprint softlink">(https://sijmen.it/portfolio)</span>
                             <a target="_blank" rel="noopener" href="https://github.com/Sinius15">Github Sinius15</a>
                             Hobby projecten, grotendeels in mijn vroege programmeerjaren<br>
-                            <a target="_blank" rel="noopener" href="http://sinius15.com/site/">Sinius15 Website</a>
+                            <span class="showonprint softlink">(https://github.com/Sinius15)</span>
+                            <a target="_blank" rel="noopener" href="http://sinius15.com/site">Sinius15 Website</a>
                             Grappige oude projecten website<br>
+                            <span class="showonprint softlink">(http://sinius15.com/site)</span>
                             <a target="_blank" rel="noopener" href="https://github.com/Sinius15">Github TheBlackCrafter</a>
                             Lang Lang Geleden<br>
+                            <span class="showonprint softlink">(https://github.com/Sinius15)</span>
                             <a target="_blank" rel="noopener" href="https://github.com/SijmenHuizenga/Hello-Programming">Hello-Programming</a>
                             Mijn allereerste programmeerproject
+                            <span class="showonprint softlink">(https://github.com/SijmenHuizenga/Hello-Programming)</span>
                         </p>
                     </div>
                 </div>
@@ -495,9 +507,9 @@
 
         <div id="footer">
             <p>Sijmen Huizenga &mdash; <a target="_blank" rel="noopener" href="mailto:sijmenhuizenga@gmail.com">sijmenhuizenga@gmail.com</a> &mdash; 06-53279894</p>
-            <br>
-            <br>
-            <p>Spelling is niet mijn sterkste kwaliteit. <br>
+
+            <p class="hideonprint">
+                <br>Spelling is niet mijn sterkste kwaliteit. <br>
                 Deze tekst is dubbel gecheckt, maar als u toch nog een fout tegenkomt dan hoor ik dat graag! <br>
                 Misschien komt er zelfs wel een zak drop uw kant op...</p>
         </div>

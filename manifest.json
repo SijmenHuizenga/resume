@@ -5,4 +5,19 @@
   "display": "standalone",
   "background_color": "#fff",
   "description": "CV van Sijmen Huizenga",
+  "lang": "nl",
+  "theme_color": "#990003",
+  "icons": [{
+    "src": "images/icon-96",
+    "sizes": "96x96",
+    "type": "image/png"
+  },{
+    "src": "images/icon-512",
+    "sizes": "512x512",
+    "type": "image/png"
+  },{
+    "src": "images/icon-1024",
+    "sizes": "1024,1024",
+    "type": "image/png"
+  }]
 }

@@ -184,3 +184,5 @@ a:hover { text-decoration: underline; }
     box-shadow: 0 0 17px #e4e4e4;
 }
 .morecontent { display: none; }
+.showonprint { display: none; }
+.softlink { color: rgba(51, 51, 51, 0.80); font-size: x-small }
