@@ -1,6 +1,6 @@
 html {
     color: #000;
-    background: #FFF
+    background: #6b6b6b
 }
 body, div, ul, li, h1, h2, h3, h4, h5, h6, p, th, td {
     margin: 0;
@@ -59,6 +59,76 @@ a {
     text-decoration: none;
 }
 a:hover { text-decoration: underline; }
+
+#background {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+}
+
+@keyframes backgroundFadeInOut {
+    0% {
+        opacity:0;
+    }
+    20% {
+        opacity:1;
+    }
+    40% {
+        opacity:0;
+    }
+    60% {
+        opacity:0;
+    }
+    80% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+#background img:nth-of-type(1) {
+    animation-delay: 80s;
+    -webkit-animation-delay: 80s;
+    -moz-animation-delay: 80s;
+    -o-animation-delay: 80s;
+}
+#background img:nth-of-type(2) {
+    animation-delay: 60s;
+    -webkit-animation-delay: 60s;
+    -moz-animation-delay: 60s;
+    -o-animation-delay: 60s;
+}
+#background img:nth-of-type(3) {
+    animation-delay: 40s;
+    -webkit-animation-delay: 40s;
+    -moz-animation-delay: 40s;
+    -o-animation-delay: 40s;
+}
+#background img:nth-of-type(4) {
+    animation-delay: 20s;
+    -webkit-animation-delay: 20s;
+    -moz-animation-delay: 20s;
+    -o-animation-delay: 20s;
+}
+#background img:nth-of-type(5) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+}
+#background img {
+    opacity: 1;
+    animation-name: backgroundFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 100s;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 #container {
     width:60em;
