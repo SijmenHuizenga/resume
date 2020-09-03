@@ -243,6 +243,9 @@ a:hover { text-decoration: underline; }
     margin-top: 0.5em;
     display: block;
 }
+.links a {
+    white-space: nowrap;
+}
 
 .more {
     margin-bottom: 0.75em !important;
@@ -259,4 +262,7 @@ a:hover { text-decoration: underline; }
 }
 .morecontent { display: none; }
 .showonprint { display: none; }
-.softlink { color: rgba(51, 51, 51, 0.80); font-size: x-small }
+.softlink { color: rgba(51, 51, 51, 0.80); }
+.softlink.small {
+    font-size: x-small
+}
